@@ -1,1 +1,1 @@
-# Python-DataMining
+Collection of assignments for Data Mining course.
