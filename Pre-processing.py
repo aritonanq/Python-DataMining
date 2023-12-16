@@ -35,13 +35,6 @@ dataexpisi = dataexp.fillna(value=dataexp.mean())
 print(dataexpisi)
 print(dataexpisi.describe())
 
-plt.boxplot(dataexpisi)
-plt.title('Grafik Box Plot')
-plt.xlabel('Sumbu X')
-plt.ylabel('Sumbu Y')
-plt.plot()
-plt.show()
-
 q1, q3 = np.percentile(dataexpisi, [25, 75])
 print(q1)
 print(q3)
